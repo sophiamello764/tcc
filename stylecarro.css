@@ -1,0 +1,37 @@
+.slider{
+    position: relative;
+}
+
+.slides{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.carro{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.btn--avancar,
+.btn--voltar{
+    position: absolute;
+    top: 50%;
+    font-size: 36px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+}
+
+.btn--avancar{
+    right: 20px;
+}
+.btn--voltar{
+    left: 0;
+}
+
+.visivel{
+    display: block;
+}

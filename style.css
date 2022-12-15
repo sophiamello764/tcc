@@ -1,0 +1,67 @@
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+.burguer, .fechar{
+    display: none;
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 768px) {
+    .burguer{
+        display: block;
+    }
+    .fechar{
+        z-index: 999;
+    }
+    nav{
+        position: absolute;
+        height:70vh;
+        width: 50%;
+        background-color:darkseagreen;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        gap: 50px;
+        display: none;
+        z-index: 999;
+
+    }
+    .beneficios{
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    
+    } .galeria{
+        display: flex;
+        flex-direction: column;
+        
+    }.novo{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+    }.visivela {
+        display: flex;
+        gap: 0;
+        margin-left: 0;
+        flex-direction: column;
+    }
+}

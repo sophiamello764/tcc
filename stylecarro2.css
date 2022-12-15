@@ -1,0 +1,41 @@
+.novo{
+    position: relative;
+
+}
+
+.slidese{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+
+.btn-avancar,
+.btn-voltar{
+    position: absolute;
+    top: 50%;
+    font-size: 36px;
+    background-color: transparent;
+    border: 1px solid darkseagreen;
+    border-radius: 50%;
+    color: green;
+}
+
+.btn-avancar{
+    right: 20px;
+}
+.btn-voltar{
+    left: 0;
+}
+
+.visivela {
+    display: flex;
+    justify-content: center;
+}
+.images{
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+}
+
+
